@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "Hemora",
+    "slug": "hemora",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": { "backgroundColor": "#e63946" },
+    "android": {
+      "adaptiveIcon": { "backgroundColor": "#e63946" },
+      "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION", "RECEIVE_BOOT_COMPLETED", "VIBRATE"]
+    },
+    "ios": { "supportsTablet": true },
+    "plugins": ["expo-notifications", "expo-location"]
+  }
+}
